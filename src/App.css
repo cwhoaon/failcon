@@ -1,3 +1,77 @@
+.container_main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  background-color: rgb(221, 235, 247);
+}
+
+.container_sub {
+  display:  flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 31%;
+}
+
+.item {
+  border: 1px ridge;
+  border-color: black;
+  border-radius: 30px;
+  height: auto;
+  margin: 5%;
+  background-color: #5ae1ff;
+}
+
+.typeimage {
+  border-radius: 30px;
+  width: 100%;
+}
+
+.typename {
+  font-size: 25px;
+  text-align: center;
+  margin: 2%;
+  font-family: 'Binggrae-Two';
+  color: white;
+}
+
+.content {
+  font-family: 'Daehan-Bold';
+  text-align: center;
+}
+
+.header {
+  font-size: 25px;
+  text-align: center;
+  padding: 1%;
+}
+
+.footer {
+  font-size: 25px;
+  text-align: center;
+  padding: 1%;
+}
+
+
+@font-face {
+  font-family: 'Binggrae-Two';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Daehan-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Daehan-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+
 .App {
   text-align: center;
 }
